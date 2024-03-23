@@ -1,0 +1,64 @@
+
+:root{
+    
+}
+
+@font-face {
+    font-family: "Libra";
+    src: url(fonts/Libras2020-Regular.ttf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    user-select: none;
+}
+body{
+    background-color: rgb(35, 35, 35);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+#display{
+    background-color: rgb(91, 91, 91);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+#display p {
+    font-family: "Libra";
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    font-size: 100px;
+}
+
+article{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+#submit{
+    background-color: transparent;
+    color: white;
+}
+#text{
+    background-color: rgb(41, 41, 41);
+}
+#text::placeholder{
+    color: white;
+}
+#submit:hover{
+    cursor: pointer;
+}
+
